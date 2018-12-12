@@ -1,0 +1,55 @@
+
+input{
+    width: 330px;
+    margin: 0px auto;
+    border-radius: 15px;
+}
+::-webkit-input-placeholder {
+    color: rgb(58, 51, 51);
+    font-weight: bold;
+  }
+
+table{
+    width: 400px;
+    height: 250px;
+}
+table img{
+    width:300px;
+    height: 300px;
+}
+
+
+div.search{
+    width: 42px;
+    height: 32px;
+    margin-left: 692px;
+    margin-top: -33px;
+    border-radius: 2px 15px 15px 2px;
+    background-color: black;
+}
+div.glyphicon-search{
+    margin-left: 9px;
+    margin-top: 4px;
+    font-size: 18px;
+    color: white;
+}
+
+
+
+
+table{
+    margin: 0px auto;
+    margin-top: 60px;
+    border: 2px solid rgb(34, 32, 32);
+    width: 600px;
+}
+
+.followers img{
+    height: 30%;
+    width: 30%;
+    float: left;
+    margin-left: 20px; 
+    margin-top: 25px; 
+
+
+}

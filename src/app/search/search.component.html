@@ -1,0 +1,35 @@
+
+
+<div class="container page-header">
+<input type="text" placeholder="search...." (keyup)="Search(srch.value)" class="form-control" #srch>
+<div class="search">
+  <div class="glyphicon glyphicon-search"></div>
+</div>
+
+<table class="table table-hover"  *ngIf="user">
+    <tr>
+      <th rowspan="4"><img src="{{user.avatar_url}}">
+      </th>
+      <td>Name:&nbsp;{{user.login}}</td>
+    </tr>
+    <tr>
+      <td>Id:&nbsp;{{user.id}}</td>
+    </tr>
+    <tr>
+      <td>Company:&nbsp;{{user.company}}</td>
+    </tr>
+    <tr>
+      <td>Location:&nbsp;{{user.location}}</td>
+    </tr>
+
+</table>
+<div class="followers">
+  
+<li *ngFor="let all of users">
+  {{all.login}}
+  <img src="{{all.avatar_url}}">
+</li>
+</div>
+</div>
+
+
